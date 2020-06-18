@@ -1,0 +1,6 @@
+def area(r):
+    PI=3.142
+    return PI*(pow(r,2))
+
+r=float(input("enter radius: "))
+print(area(r))
