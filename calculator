@@ -1,0 +1,28 @@
+def add(x,y):
+    return x+y
+def sub(x,y):
+    return x-y
+def mul(x,y):
+    return x*y
+def div(x,y):
+    return x/y
+
+x=int(input("input number 1:"))
+y=int(input("input number 2:"))
+print("select operator -\n"\
+        "1.ADD\n"\
+        "2.SUB\n"\
+        "3.MUL\n"\
+        "4.DIV\n")
+z=int(input("input operator"))
+if z==1:
+    print(x, "+", y, "=", add(x,y))
+elif z==2:
+    print(x, "-", y, "=", sub(x,y))
+elif z==3:
+    print(x, "*", y, "=", mul(x,y))
+elif z==4:
+    print(x, "/", y, "=", div(x,y))
+else:
+    print("invalid")
+    
