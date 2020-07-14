@@ -1,0 +1,7 @@
+L=[]
+n=int(input("entger size"))
+for i in range(0,n):
+    m=int(input())
+    L.append(m)
+print(L)    
+print(len(L)) #size
