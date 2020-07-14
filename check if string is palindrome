@@ -1,0 +1,38 @@
+#1 Method
+def reverse(s): 
+    str=""
+    for i in s:
+        str=i+str
+    return str
+s=input("")
+d=reverse(s)
+if(s==d):
+ print("yes")
+else:
+    print("No")
+    
+    
+#2Method
+def reverse(s): 
+    if len(s)==0:
+        return s
+    else:    
+        return reverse(s[1:])+s[0]
+s=input("")
+d=reverse(s)
+if(s==d):
+ print("yes")
+else:
+    print("No")
+    
+    
+#3 Method
+def reverse(s): 
+   return s==s[::-1]
+s=input("")
+d=reverse(s)
+if d:
+    print("Yes")
+else:
+    print("No")
+    
