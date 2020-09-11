@@ -1,0 +1,4 @@
+
+i=input("enter text ")
+n=len(i)
+print("the value is ",i[0:n:2])
