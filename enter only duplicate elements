@@ -1,0 +1,13 @@
+lst=[]
+lst1=[]
+n=int(input())
+for i in range(0,n):
+    s=int(input())
+    lst.append(s)
+for i in range(n):
+    k=i+1
+    for j in range(k,n):
+        if lst[i]==lst[j] and lst[i] not in lst1:
+           lst1.append(lst[i])
+print(lst1)
+        
