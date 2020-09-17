@@ -1,0 +1,12 @@
+def calc_average(nums):
+    a=min(nums)
+    p=max(nums)
+    q=sum(nums)
+    e=a+p
+    d=q-e
+    m=len(nums)-2
+    s=d/m
+    
+    
+    
+    return int(s)
